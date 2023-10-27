@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: rgb(87, 26, 26);
+    height: 250px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(200, 105, 105);
+    height: 250px;
+}
+
+.header {
+    color: green;
+    text-align: center;
+}
+
+span {
+    padding-left: 20px;
+}
+
+.paragraph1 {
+    font-weight: bold;
+}
+
+.paragraph2-3 {
+    color: rgb(231, 150, 80);
+}
+
+@media (max-width: 768px) {
+    .first {
+        font-size: 20px;
+    }
+
+    .container {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .first {
+        font-size: 18px;
+    }
+
+    .container {
+        height: 200px;
+    }
+}

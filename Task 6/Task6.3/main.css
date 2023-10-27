@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+}
+
+.block {
+    width: 200px;
+    height: 100px;
+    font-size: 70px;
+}
+
+.container .A{
+    background-color: red;
+}
+
+.container .B{
+    background-color: green;
+}
+
+.container .C{
+    background-color: blue;
+}
+
+.container .D{
+    background-color: yellow;
+}
+
+.container .E{
+    background-color: rebeccapurple;
+}
+
+.container .F{
+    background-color: gray;
+}
+
+.container .G{
+    background-color: brown;
+}
+
+.container .H{
+    background-color: purple;
+}
+
+.container .I{
+    background-color: yellow;
+}
+
+.container .J{
+    background-color: red;
+}

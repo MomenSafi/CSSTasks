@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+.container {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.1%;
+    border: 10px solid orange;
+    height: 100vh;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: 50px;
+}
+
+.A{
+    background-color: green;
+}
+
+.B{
+    background-color: yellow;
+}
+
+.C{
+    background-color: purple;
+}
+
+.D{
+    background-color: gray;
+}
+
+.E{
+    background-color: blue;
+}
+
+.F{
+    background-color: orange;
+}
+
+.G{
+    background-color: pink;
+}
+
+.H{
+    background-color: red;
+}
+
+.I{
+    background-color: rgb(106, 1, 1);
+}

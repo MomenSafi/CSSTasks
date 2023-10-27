@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(235, 225, 117);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lorem1,
+.lorem2,
+.lorem3{
+    background-color: white;
+    flex: 1;
+    width: 100%;
+    min-width: 300px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+.lorem3{
+    border: 1px red dashed;
+    color: red;
+}
+
+.lorem3 p{
+    border: 1px red dashed;
+}
+
+p,
+h3{
+    margin: 10px;
+}
+
+.highlight::before {
+    content: "Lorem";
+    background-color: yellow;
+}

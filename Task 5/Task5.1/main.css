@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(220, 47, 171, 0.83);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lorem {
+    background-color: white;
+    flex: 1;
+    width: 100%;
+    max-width: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.lorem1 {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content {
+    overflow-y: auto;
+    max-height: 100px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 3px;
+    cursor: pointer;
+}
+
+hr {
+    border: 2px solid;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .lorem {
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .lorem1 {
+        height: 150px;
+        margin-right: 5px;
+    }
+
+    .content {
+        max-height: none;
+    }
+}

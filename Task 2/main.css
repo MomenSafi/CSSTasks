@@ -1,0 +1,181 @@
+/* Default styles for all screens */
+.logo {
+    height: 50px;
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+p {
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.foget {
+    display: block;
+    padding: 13.6px;
+}
+
+.input {
+    margin: 10px;
+    width: 85%;
+    height: 30px;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.show-password {
+    position: relative;
+    right: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.block {
+    display: block;
+    margin: 10px;
+}
+
+.Sign {
+    display: flex;
+    width: 100%;
+    border: 1px;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignE {
+    background-color: blue;
+    color: white;
+}
+
+.SignA {
+    border: 1px solid black;
+}
+
+.changestylelink {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.line-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: rgb(114, 110, 110);
+}
+
+.word {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.out-container {
+    text-align: center;
+}
+
+footer {
+    display: none;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-logo {
+    height: 15px;
+    width: 60px;
+}
+
+.link-footer {
+    color: black;
+    padding: 10px;
+}
+
+/* Styles for medium screens */
+@media (max-width: 768px) {
+    .container {
+        width: 60%;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .foget {
+        padding: 10px;
+    }
+
+    .input {
+        width: 90%;
+    }
+}
+
+/* Styles for small screens */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .foget {
+        padding: 8px;
+    }
+
+    .input {
+        width: 90%;
+    }
+}
+
+/* Styles for large screens */
+@media (max-width: 1024px) {
+    .container {
+            width: 40%;
+        }
+    
+        h3 {
+            font-size: 32px;
+        }
+    
+        .foget {
+            padding: 12px;
+        }
+    
+        .input {
+            width: 90%;
+        }
+    }
+
+    @media (min-width: 990px) {
+    footer {
+        display: block;
+    }
+    }

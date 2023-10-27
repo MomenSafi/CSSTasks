@@ -1,0 +1,31 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    margin: auto;
+}
+
+table {
+    width: 50%;
+}
+
+th {
+    background-color: yellow;
+    font-weight: bold;
+    text-align: end;
+}
+
+.lstCol {
+    font-weight: bold;
+    text-align: center;
+}
+
+.frsCol-secRow {
+    background-color: #e19797;
+    text-align: center;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
