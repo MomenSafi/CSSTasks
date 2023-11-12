@@ -1,17 +1,15 @@
 body {
-    background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);
     color: #333333;
+    height: 100vh;
 }
 
-h5{
+h5 {
     margin: 10px;
 }
 
 .box-form {
-    margin: 0 auto;
+    margin: 15% auto;
     width: 90%;
     max-width: 800px;
     background: #FFFFFF;
@@ -19,6 +17,8 @@ h5{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .overlay {
@@ -42,12 +42,12 @@ img {
 }
 
 .Login {
-    display: flex;
     margin: 10px;
     width: 90%;
     cursor: pointer;
     height: 35px;
     border-radius: 35px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: green;
@@ -59,7 +59,8 @@ a {
     color: green;
 }
 
-@media (max-width: 769) and (min-width: 481px) {
+@media (max-width: 769px) and (min-width: 481px),
+(max-width: 1800px) and (min-width: 770px) {
     .box-form {
         width: 95%;
         border-radius: 10px;
@@ -69,42 +70,7 @@ a {
         flex-direction: row;
     }
 
-    .right{
-        width: 60%;
-    }
-
-    .overlay {
-    display: flex;
-    align-items: center;
-    height: 50vh;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    }
-
-    img {
-        width: 200px;
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .box-form {
-        width: 100%;
-    }
-}
-
-@media (max-width: 1800px) and (min-width: 770px) {
-    .box-form {
-        width: 95%;
-        border-radius: 10px;
-        flex: 1 1 100%;
-        align-items: stretch;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-
-    .right{
+    .right {
         width: 60%;
     }
 
@@ -120,5 +86,11 @@ a {
     img {
         width: 250px;
         max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .box-form {
+        width: 100%;
     }
 }

@@ -9,20 +9,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="box-form">
-            <h4>Contact Us</h4>
-            <div>
-                <form action="post">
-                    <input class="input" type="text" placeholder="Full Name">
-                    <input class="input" type="email" placeholder="Email">
-                    <input class="input" type="text" placeholder="+962 xx xxx xxxx">
-                    <textarea class="input" maxlength="10000" placeholder="Your message here...." ></textarea>
-                    <button class="Send">Send</button>
-                </form>
-            </div>
-        </div>
-    </div>
+    <h1>Contact Us</h1>
+    <form>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <button type="submit">Send</button>
+    </form>
 </body>
 
 </html>

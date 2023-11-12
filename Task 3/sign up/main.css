@@ -1,86 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-image: linear-gradient(135deg, #6a5bf4 10%, #6a5bf4 100%);
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #afb3e8;
 }
 
 .container {
-    background-color: rgba(0, 0, 255, 0.729);
-    margin: 10px auto;
-    width: 80%;
-    max-width: 800px;
-    border-radius: 10px;
-    padding: 15px;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.box-form {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color:#7279d5;
 }
 
 h4 {
-    font-size: 24px;
-    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .input {
-    margin: 10px;
     width: 100%;
-    height: 30px;
-    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
 }
 
-.Name {
-    display: flex;
-    flex-wrap: wrap;
+.input:focus {
+    outline: none;
+    border-color: #6c757d;
 }
 
-.name {
-    flex: 1;
-    margin-right: 10px;
+.checkbox {
+    margin-bottom: 10px;
 }
 
 .Sign-Up {
-    margin: 10px;
     width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    height: 35px;
-    border-radius: 35px;
-    background-color: gray;
-    color: black;
 }
 
-.checkbox,
+.Sign-Up:hover {
+    background-color: #0056b3;
+}
+
 .text {
-    font-size: 14px;
-    margin-top: 10px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-@media (max-width: 480px) {
-    .container {
-        width: 80%;
-    }
-
-    .input{
-        width: 90%;
-    }
+.text a {
+    text-decoration: none;
 }
 
-@media (max-width: 769px) and (min-width: 481px) {
-    .container {
-        width: 250px;
-    }
-
-    .input {
-        width: 90%;
-    }
-}
-@media (max-width: 3000px) and (min-width: 769px) {
-    .container {
-        width: 300px;
-    }
-
-    .input {
-        width: 90%;
-    }
+.text a:hover {
+    text-decoration: underline;
 }

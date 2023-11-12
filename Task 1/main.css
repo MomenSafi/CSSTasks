@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 table,
 th,
 td {
@@ -6,16 +10,12 @@ td {
 }
 
 table {
-    width: 50%;
+    width: 100%;
+    max-width: 300px;
 }
 
 th {
-    background-color: yellow;
-    font-weight: bold;
-    text-align: end;
-}
-
-.lstCol {
+    background-color: #e19797;
     font-weight: bold;
     text-align: center;
 }
@@ -23,6 +23,12 @@ th {
 .frsCol-secRow {
     background-color: #e19797;
     text-align: center;
+}
+
+.lstCol {
+    font-weight: bold;
+    text-align: center;
+    background-color: yellow;
 }
 
 span {

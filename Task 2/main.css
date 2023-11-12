@@ -1,11 +1,10 @@
-/* Default styles for all screens */
 .logo {
     height: 50px;
 }
 
 .container {
     margin: auto;
-    width: 70%;
+    width: 300px;
     border: 1px solid;
     padding: 5px;
     margin-bottom: 20px;
@@ -40,8 +39,8 @@ p {
 }
 
 .show-password {
-    position: relative;
-    right: 10px;
+    position: absolute;
+    right: 30px;
     color: blue;
     cursor: pointer;
 }
@@ -119,9 +118,6 @@ footer {
 
 /* Styles for medium screens */
 @media (max-width: 768px) {
-    .container {
-        width: 60%;
-    }
 
     h3 {
         font-size: 28px;
@@ -138,9 +134,7 @@ footer {
 
 /* Styles for small screens */
 @media (max-width: 480px) {
-    .container {
-        width: 95%;
-    }
+    
 
     h3 {
         font-size: 24px;
@@ -157,9 +151,6 @@ footer {
 
 /* Styles for large screens */
 @media (max-width: 1024px) {
-    .container {
-            width: 40%;
-        }
     
         h3 {
             font-size: 32px;
